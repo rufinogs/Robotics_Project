@@ -6,26 +6,11 @@ I will post my homeworks of Robotic.
 
 These are my work practices: 
 
-1. 
+1. Follow Line
+The goal is to complete a lap following the line painted on the racing circuit.
+We will use https://jderobot.github.io/RoboticsAcademy/ with Phyton
 
-```markdown
-``
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-``
-- List
-``
-1. Numbered
-``
-2. List
-``
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 ### Comments
 
