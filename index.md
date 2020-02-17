@@ -1,6 +1,6 @@
-## Welcome to My Robotics Blog
+## Welcome to my R0b0tic BLOG
 
-I will post the homeworks of Robotic and i will comment it.
+I will post my homeworks of Robotic.
 
 ### Markdown
 
