@@ -27,6 +27,12 @@ In this practice i have an important sensor of robots. This sensor is The camera
 In this practice i do an image processing. Firts i get the <b> RSV image</b> and <b> I convert into a HSV image</b>. Then i create a mask for this imagen and filetered to get a <b> Binary Image</b> to get more information from the image and use it to create the code to redirect the car following the red line in the race circuit.
 
 <img src="rgb.png" alt="hi" class="center"/> 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 RGB IMAGE 
 
 
