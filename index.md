@@ -12,7 +12,7 @@ We will use <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a>
 
 ### INTRODUCTION FOLLOW LINE: 
 
-<img src="https://github.com/rufinogs/rufinogs.github.io/blob/master/Captura%20de%20pantalla%202020-02-26%20a%20las%2023.28.01.png" alt="hi" class="inline"/>
+<img src="Captura de pantalla 2020-02-26 a las 23.28.01.png" alt="hi" class="inline"/>
 
 <h1>The first implement: <b>The case-based program</b></h1>
 It is a conditional control structure that appears in most modern programming languages and allows a selection to be made   between several sets of program statements; the choice is dependent on the value of some expression. The case statement is a  more general structure than the <b> if then else statement </b>,which allows a choice between only two sets of statements.
@@ -26,8 +26,8 @@ src="https://www.youtube.com/watch?v=v27xYKdZUzI">
 In this practice i have an important sensor of robots. This sensor is The camera sensor who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
 In this practice i do an image processing. Firts i get the <b> RSV image</b> and <b> I convert into a HSV image</b>. Then i create a mask for this imagen and filetered to get a <b> Binary Image</b> to get more information from the image and use it to create the code to redirect the car following the red line in the race circuit.
 
-<centre><img src="rgb.png" alt="hi" class="inline"/> </centre>
-<centre> RGB IMAGE </centre>
+                                    <img src="rgb.png" alt="hi" class="inline"/> 
+                                                     RGB IMAGE 
 
 
 ### Comments
