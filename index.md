@@ -8,7 +8,7 @@ These are my work practices:
 
 ### 1. Follow Line 
 The goal is to complete a lap following the line painted on the racing circuit.
-We will use https://jderobot.github.io/RoboticsAcademy/ with Phyton
+We will use <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with Phyton
 
 ### INTRODUCTION FOLLOW LINE: 
 
