@@ -19,7 +19,7 @@ It is a conditional control structure that appears in most modern programming la
 
 <h2> The second implement: The PID controller</h2>
 The name of PID stands for Proportional-Integral-Derivative. These three controllers are combined in such a way that it produces a control signal. As a feedback controller, it delivers the control output at desired levels. I have to admit that with that alteration in my code including the PID controller the Formula one has improve a lot the circulation in the race circuit. For more information you car learn about more of the PID controler in this video I linked:
-<video>  <source src="https://www.youtube.com/watch?v=v27xYKdZUzI" type="video/mp4"></video>
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
 
 
 
