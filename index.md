@@ -26,6 +26,8 @@ src="https://www.youtube.com/watch?v=v27xYKdZUzI">
 In this practice i have an important sensor of robots. This sensor is The camera sensor who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
 In this practice i do an image processing. Firts i get the <b> RSV image</b> and <b> I convert into a HSV image</b>. Then i create a mask for this imagen and filetered to get a <b> Binary Image</b> to get more information from the image and use it to create the code to redirect the car following the red line in the race circuit.
 
+<centre><img src="rgb.png" alt="hi" class="inline"/> </centre>
+<centre> RGB IMAGE </centre>
 
 
 ### Comments
