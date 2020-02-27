@@ -10,7 +10,7 @@ These are my work practices:
 The goal is to complete a lap following the line painted on the racing circuit.
 We will use the plataform created by <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with the lenaguage of programming called Phyton.
 
-### INTRODUCTION FOLLOW LINE: 
+### INTRODUCTION TO THE PRACTICE FOLLOW LINE: 
 
 <img src="Captura de pantalla 2020-02-26 a las 23.28.01.png" alt="hi" class="inline"/>
 
