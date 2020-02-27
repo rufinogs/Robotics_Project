@@ -30,7 +30,6 @@ In this practice i do an image processing. Firts i get the <b> RSV image</b> and
 
 <figure class="align-center">
 <img src="rgb.png" alt="hi" class="incline"/> 
-
 RGB IMAGE
 
 <img src="hsv.png" alt="hi" class="incline"/> 
