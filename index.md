@@ -8,7 +8,7 @@ These are my work practices:
 
 ### 1. Follow Line 
 The goal is to complete a lap following the line painted on the racing circuit.
-We will use <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with Phyton
+We will use the plataform created by <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with the lenaguage of programming called Phyton.
 
 ### INTRODUCTION FOLLOW LINE: 
 
@@ -38,6 +38,19 @@ HSV IMAGE
 <img src="binary.png" alt="hi" class="incline"/> 
 BINARY IMAGE 
 
+### The case-based program:
+
+This type is very easy i only count the error between pixels from right to left and i write in the angular velocity this error.
+
+
+### The PID controller:
+In this part of the program i calcuate the error in another form. I think this way to calculate the error its more efficient. i calculate the center of the image of the simulator and then i calculate i all moments the exact middle of the image that the camera provides me. With this "desviation" ussing a loop in the code saving the last 10 errors. I can compare to get the derivate part from the PID and I can sum all the errors to get the Integral part to get all the components fo the PID.
+<object width="420" height="315"
+data="https://youtu.be/PWc_PTr9I_M">
+</object>
+<embed width="430" height="315"
+src="https://youtu.be/PWc_PTr9I_M">
+https://youtu.be/PWc_PTr9I_M
 
 
 ### Comments
