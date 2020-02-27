@@ -28,7 +28,7 @@ For more information you car learn about more of the PID controler in this video
 </figure>
 
 ### The Image Processing
-In this practice i have an important sensor of robots. This sensor is The camera sensor who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
+In this practice i have used an important robotic sensir. This sensor is <b>the camera sensor</b> who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
 In this practice i do an image processing. Firts i get the <b> RSV image</b> and <b> I convert into a HSV image</b>. Then i create a mask for this imagen and filetered to get a <b> Binary Image</b> to get more information from the image and use it to create the code to redirect the car following the red line in the race circuit.
 
 <figure class="align-center">
@@ -36,7 +36,7 @@ In this practice i do an image processing. Firts i get the <b> RSV image</b> and
 RGB IMAGE
 
 <img src="hsv.png" alt="hi" class="incline"/> 
-<figcaption>HSV IMAGE</figcaption>
+SV IMAGE
 
 <img src="binary.png" alt="hi" class="incline"/> 
 <figcaption> BINARY IMAGE </figcaption>
