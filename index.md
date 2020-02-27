@@ -19,17 +19,19 @@ It is a conditional control structure that appears in most modern programming la
 
 <h2> The second implement: The PID controller</h2>
 The name of PID stands for Proportional-Integral-Derivative. These three controllers are combined in such a way that it produces a control signal. As a feedback controller, it delivers the control output at desired levels. I have to admit that with that alteration in my code including the PID controller the Formula one has improve a lot the circulation in the race circuit. For more information you car learn about more of the PID controler in this video I linked:
-<object width="420" height="315"
-data="https://www.youtube.com/watch?v=v27xYKdZUzI">
-</object>
-<embed width="430" height="315"
-src="https://www.youtube.com/watch?v=v27xYKdZUzI">
 
+<pre>
+<div align="center">
+operation with case-based control method
+<div class="”video-responsive”">
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/watch?v=v27xYKdZUzI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
+</div>
+</div>
+</pre>
 
-<iframe  src="https://www.youtube.com/embed/DZe6JDucfn0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
 
 ### The Image Processing
 In this practice i have an important sensor of robots. This sensor is The camera sensor who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
@@ -37,13 +39,13 @@ In this practice i do an image processing. Firts i get the <b> RSV image</b> and
 
 <figure class="align-center">
 <img src="rgb.png" alt="hi" class="incline"/> 
-RGB IMAGE 
+<figcaption>RGB IMAGE</figcaption>
 
 <img src="hsv.png" alt="hi" class="incline"/> 
-HSV IMAGE 
+<figcaption>HSV IMAGE</figcaption>
 
 <img src="binary.png" alt="hi" class="incline"/> 
-BINARY IMAGE 
+<figcaption> BINARY IMAGE </figcaption>
 </figure>
 
 ### The case-based program:
