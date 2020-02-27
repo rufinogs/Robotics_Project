@@ -42,11 +42,17 @@ In this practice i do an image processing. Firts i get the <b> RSV image</b> and
 ### The case-based program:
 
 This type is very easy i only count the error between pixels from right to left and i write in the angular velocity this error.This is a video of my case-based program with the Formula One in the practice:
-  <iframe src="https://youtu.be/KFF2EVhh_rk" frameborder="0" allowfullscreen="true"> </iframe>
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://youtu.be/KFF2EVhh_rk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
+
 
 ### The PID controller:
 In this part of the program i calcuate the error in another form. I think this way to calculate the error its more efficient. i calculate the center of the image of the simulator and then i calculate i all moments the exact middle of the image that the camera provides me. With this "desviation" ussing a loop in the code saving the last 10 errors. I can compare to get the derivate part from the PID and I can sum all the errors to get the Integral part to get all the components fo the PID.This is a vdieo of my PID program with the Formula One in the practice: 
-  <iframe src="https://youtu.be/PWc_PTr9I_M" frameborder="0" allowfullscreen="true"> </iframe>
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://youtu.be/PWc_PTr9I_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
+
 
 
 
