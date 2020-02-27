@@ -19,8 +19,8 @@ It is a conditional control structure that appears in most modern programming la
 
 <h2> The second implement: The PID controller</h2>
 The name of PID stands for Proportional-Integral-Derivative. These three controllers are combined in such a way that it produces a control signal. As a feedback controller, it delivers the control output at desired levels. I have to admit that with that alteration in my code including the PID controller the Formula one has improve a lot the circulation in the race circuit. For more information you car learn about more of the PID controler in this video I linked:
-  <iframe  src="https://www.youtube.com/embed/DZe6JDucfn0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-  <iframe src="https://www.youtube.com/watch?v=v27xYKdZUzI" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+  <iframe  src="https://www.youtube.com/watch?v=v27xYKdZUzI" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+  
 
 ### The Image Processing
 In this practice i have used an important robotic sensir. This sensor is <b>the camera sensor</b> who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
@@ -45,7 +45,7 @@ This type is very easy i only count the error between pixels from right to left 
 
 ### The PID controller:
 In this part of the program i calcuate the error in another form. I think this way to calculate the error its more efficient. i calculate the center of the image of the simulator and then i calculate i all moments the exact middle of the image that the camera provides me. With this "desviation" ussing a loop in the code saving the last 10 errors. I can compare to get the derivate part from the PID and I can sum all the errors to get the Integral part to get all the components fo the PID.This is a vdieo of my PID program with the Formula One in the practice: 
-<iframe  src="https://www.youtube.com/embed/DZe6JDucfn0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe  src="https://www.youtube.com/watch?v=PWc_PTr9I_M" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 
 
