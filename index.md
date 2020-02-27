@@ -41,7 +41,7 @@ In this practice i do an image processing. Firts i get the <b> RSV image</b> and
 
 This type is very easy i only count the error between pixels from right to left and i write in the angular velocity this error.This is a video of my case-based program with the Formula One in the practice:
 <pre>
-<iframe  src="https://www.youtube.com/watch?v=KFF2EVhh_rk" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KFF2EVhh_rk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 
 ### The PID controller:
