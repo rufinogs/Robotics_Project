@@ -63,7 +63,7 @@ In this part of the program i calcuate the error in another form. I think this w
 The goal of this practice is that the black drone (cat) needs to follow the red one (mouse) in an open field map delimited by ficticial lines.
 
 In this practice I use the languague of programming python an the library cv2. I use in especial this library for image processing (from de drone) and to use different logic methods for robots implmented in that library.
-
+<img src="drone1.png" alt="hi" class="inline"/>
 
 ### The Image Processing
 
@@ -72,6 +72,7 @@ This part is very important due to with this image processing we can detect the 
 ### The drone controller
 
 First i used a case-based controller but this cas -based program was very inneficient and the drone sometimes lost the red drone. Then i implement the another way and the black drone (the cat) mproves a lot the way he follos the red dorne (the mouse). 
+
 
 
 
