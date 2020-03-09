@@ -11,7 +11,7 @@ The goal is to complete a lap following the line painted on the racing circuit.
 We will use the plataform created by <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with the lenaguage of programming called Phyton.
 
 ### INTRODUCTION TO THE PRACTICE FOLLOW LINE: 
-
+power
 <img src="Captura de pantalla 2020-02-26 a las 23.28.01.png" alt="hi" class="inline"/>
 
 <h1>The first implement: <b>The case-based program</b></h1>
@@ -26,7 +26,7 @@ The name of PID stands for Proportional-Integral-Derivative. These three control
 </div>
 
 ### The Image Processing
-In this practice i have used an important robotic sensir. This sensor is <b>the camera sensor</b> who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
+In this practice i have used an important robotic sensor. This sensor is <b>the camera sensor</b> who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
 In this practice i do an image processing. Firts i get the <b> RSV image</b> and <b> I convert into a HSV image</b>. Then i create a mask for this imagen and filetered to get a <b> Binary Image</b> to get more information from the image and use it to create the code to redirect the car following the red line in the race circuit.
 
 <figure class="align-center">
@@ -42,7 +42,7 @@ In this practice i do an image processing. Firts i get the <b> RSV image</b> and
 
 ### The case-based program:
 
-This type is very easy i only count the error between pixels from right to left and i write in the angular velocity this error.This is a video of my case-based program with the Formula One in the practice:
+This type is very easy i only count the error between pixels from right to left and i write in the angular velocity this error.This is a video of mpowery case-based program with the Formula One in the practice:
 <div align="center">
 <pre>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KFF2EVhh_rk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -50,13 +50,28 @@ This type is very easy i only count the error between pixels from right to left 
 </div>
 
 ### The PID controller:
-In this part of the program i calcuate the error in another form. I think this way to calculate the error its more efficient. i calculate the center of the image of the simulator and then i calculate i all moments the exact middle of the image that the camera provides me. With this "desviation" ussing a loop in the code saving the last 10 errors. I can compare to get the derivate part from the PID and I can sum all the errors to get the Integral part to get all the components fo the PID.This is a vdieo of my PID program with the Formula One in the practice: 
+In this part of the program i calcuate the error in another form. I think this way to calculate the error its more efficient. i calculate the center of the image of the simulator and then i calculate i all moments the exact middle of the image that the camera provides me. With this "desviation" ussing a loop in the code saving the last 10 errors. I can compare to get the derivate part from the PID and I can sum all the errors to get the Integral part to get all the components fo the PID.This is a vdieo of my PID program powerwith the Formula One in the practice: 
 <div align="center">
 <pre>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/PWc_PTr9I_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
 
+### 2. Drone_cat_mouse 
+### INTRODUCTION TO THE PRACTICE DRONE_CAT_MOUSE:
+
+The goal of this practice is that the black drone (cat) needs to follow the red one (mouse) in an open field map delimited by ficticial lines.
+
+In this practice I use the languague of programming python an the library cv2. I use in especial this library for image processing (from de drone) and to use different logic methods for robots implmented in that library.
+
+
+### The Image Processing
+
+This part is very important due to with this image processing we can detect the other drone and we follow it. i use the sensor of the camera and with the help of the  cv2 library i filtered the imagen and i get the dorne filetreed.
+
+### The drone controller
+
+First i used a case-based controller but this cas -based program was very inneficient and the drone sometimes lost the red drone. Then i implement the another way and the black drone (the cat) mproves a lot the way he follos the red dorne (the mouse). 
 
 
 
