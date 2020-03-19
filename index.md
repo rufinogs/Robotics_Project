@@ -83,8 +83,9 @@ The objective of this practice is to implement the logic of the VFF navigation a
 ### SENSORS
 In this practice we use 2 important sensors:
 
-  ### <b>1. The laser sensor </b>
-  ### <b>2. The Location of the robot</b>
+   <b>1. The laser sensor</b>
+   
+   <b>2. The Location of the robot</b>
 
 ### VFF ALGORITHM
 
