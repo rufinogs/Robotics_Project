@@ -80,6 +80,8 @@ First i used a case-based controller but this cas -based program was very innefi
 
 The objective of this practice is to implement the logic of the VFF navigation algorithm to control a F1 Robot as the one shown in the next image. In this practive we have to improve the code due to the fact we need to complete the entire circuit avoiding the obstacles that the car will find with the sensors.
 
+<img src="Captura de pantalla 2020-03-19 a las 16.26.05.png" alt="hi" class="inline"/>
+
 ### SENSORS
 In this practice we use 2 important sensors:
 
@@ -122,6 +124,7 @@ The VFF algorith contais 3 types of forces. This forces are:
 
 <b>Resultant Force</b>
 
+<img src="Captura de pantalla 2020-03-19 a las 15.49.34.png" alt="hi" class="inline"/>
 
 This is a video of my Robot with the VFF Algorithm: 
 
