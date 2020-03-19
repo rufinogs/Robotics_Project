@@ -75,6 +75,60 @@ First i used a case-based controller but this cas -based program was very innefi
 
 
 
+### 3. Obstacle Avoidance Practice
+### INTRODUCTION TO THE Obstacle Avoidance Practice:
+
+The objective of this practice is to implement the logic of the VFF navigation algorithm to control a F1 Robot as the one shown in the next image. In this practive we have to improve the code due to the fact we need to complete the entire circuit avoiding the obstacles that the car will find with the sensors.
+
+### SENSORS
+In this practice we use 2 important sensors:
+
+  <b>1.- The laser sensor </b>
+  <b>2.- The Location of the robot</b>
+
+### VFF ALGORITHM
+
+Navigation using VFF (Virtual Force Field), consists of:
+
+Each object in the environment generates a repulsive force towards the robot.
+
+Destiny generates an attractive force in the robot.
+
+This makes it possible for the robot to go towards the target, distancing itself of the obstacles, so that their address is the vector sum of all the forces.
+
+
+### HOW WE IMPLEMENT VFF ALGORITHM
+
+To implement VFF algorithm i used an hybrid navigation. This hybrid navigation is formed by global navigation and local navigation.
+
+First, we need to know the absolute coordinates from the robot (x, y, yaw).
+
+Second, we need to obtain the absolute coordinates from the next target.
+
+Next, we need to calculate the relative coordinates from my robot from the previous absolute coordinates.
+
+Then, we need to obtain the sensor data wo has an array of 180 position. Each position has a value, this value is the ditance from your robot to the obstacle.
+
+Finally, we obtain the relative coordinates form the robot and we have to implement that process in the VFF algorithm.
+
+
+### WHAT CONTAINS THE VFF ALGORITHM
+The VFF algorith contais 3 types of forces. This forces are:
+
+<b>Attractive Force</b>
+
+<b>Repulsive Force</b>
+
+<b>Resultant Force</b>
+
+
+This is a video of my Robot with the VFF Algorithm: 
+
+<div align="center">
+<pre>
+  <iframe width="560" height="315" src="https://youtu.be/nlX39X07YWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</pre>
+</div>
 
 ### Comments
 
