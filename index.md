@@ -11,7 +11,7 @@ The goal is to complete a lap following the line painted on the racing circuit.
 We will use the plataform created by <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with the lenaguage of programming called Phyton.
 
 ### INTRODUCTION TO THE PRACTICE FOLLOW LINE: 
-power
+
 <img src="Captura de pantalla 2020-02-26 a las 23.28.01.png" alt="hi" class="inline"/>
 
 <h1>The first implement: <b>The case-based program</b></h1>
