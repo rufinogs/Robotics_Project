@@ -145,7 +145,7 @@ This was an execute of my code with the VFF Algorithm in the Online plataform of
 </pre>
 </div>
 
-<h2><b> PROBLEMS </b> </h2>
+<h2><b> My Issue </b> </h2>
 
 I had a problem with the practice because the online plataform fall down and the only way to solve the prcatice and to reach the goal was using the offline plataform. For me this was a problem due to the fact that I have a Macbook with MacOS and this S.O have incompatibilities with linux and running the code in a VM with linux decreased a lot the performance and the possibility to run the code in my comupter with a good flexibility using gazebo and the code at the same time. Due to the fact that the perfomance decreased my teacher of Robotic found me a possibilitie to run gazebo without the graphic interfaz. Only runing the solucion without using the simulator gazebo, I can't see the simulator of the car running the circuit but I could see the solution of my code and the vectors from the car.
  
