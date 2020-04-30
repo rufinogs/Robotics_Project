@@ -159,11 +159,11 @@ This was my first proof of my code running only the solucion of my code:
 </pre>
 </div>
 
-After many failed attemps I obtain one solution that works but touch the walls of the cirucit and that decrease the lineal velocity and sometimes the car stops. This is an example: 
+After many failed attemps I obtain one solution that works but touch the walls of the cirucit and that decrease the lineal velocity. This is an example: 
 
 <div align="center">
 <pre>
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=fQMPrYmGCtI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://youtu.be/fQMPrYmGCtI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
 
@@ -173,7 +173,7 @@ This is an example of my final solution running the final code:
 
 <div align="center">
 <pre>
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=PZU6-7f6dZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://youtu.be/PZU6-7f6dZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
 
