@@ -58,7 +58,7 @@ In this part of the program i calcuate the error in another form. I think this w
 </div>
 
 <h1><b>2. Drone_cat_mouse</b></h1> 
-### INTRODUCTION TO THE PRACTICE DRONE_CAT_MOUSE:
+### INTRODUCTION TO THE PRACTICE DRONE CAT MOUSE:
 
 The goal of this practice is that the black drone (cat) needs to follow the red one (mouse) in an open field map delimited by ficticial lines.
 
@@ -121,13 +121,22 @@ Finally, we obtain the relative coordinates form the robot and we have to implem
 ### WHAT CONTAINS THE VFF ALGORITHM
 The VFF algorith contais 3 types of forces. This forces are:
 
-<b>Attractive Force</b>
+<b>Attractive Force (Green vector)</b>
 
-<b>Repulsive Force</b>
+First of all I used the absolute2relative() method to change the coordinates of the targets from absolutes to relatives coordinates.
 
-<b>Resultant Force</b>
+Then, I calculate this Attractive force with the X (self.carx) and Y (self.cary) coordinates that I take from target. This target was formed by module and phase. The module has to be constant in order the force doesn’t increase uncontrollably.
 
-<img src="vectores.png" alt="hi" class="inline"/>
+<b>Repulsive Force (Red vector)</b>
+
+To calculate that Repulsive force i used the infromation obtained from the laser. Using this infromation i obtained the repulsive vector and created using np.mean. 
+
+<b>Resultant Force (Black vector)</b>
+
+I calculated the Resultant force with the sum of the Attrative force and the Repulsive force.
+
+<img src= "Captura de pantalla 2020-04-30 a las 14.26.23.png" alt="hi" class="inline"/>
+
 
 This was an execute of my code with the VFF Algorithm in the Online plataform of JdRObot: 
 
@@ -147,17 +156,25 @@ This was my first proof of my code running only the solucion of my code:
 
 <div align="center">
 <pre>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/nlX39X07YWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://youtu.be/erEbsWirIc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
 
-
-
-This is a video of my Robot with the VFF Algorithm: 
+After many failed attemps I obtain one solution that works but touch the walls of the cirucit and that decrease the lineal velocity and sometimes the car stops. This is an example: 
 
 <div align="center">
 <pre>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/nlX39X07YWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=fQMPrYmGCtI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</pre>
+</div>
+
+Finally i reach my goal. I create a code that the robot never touch the walls of the circuit and goe very well decreasing the velocity when he see a target and increasing the angular speed to avoid it and increasing the linear speed when he see only the road with any target.
+
+This is an example of my final solution running the final code:
+
+<div align="center">
+<pre>
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=PZU6-7f6dZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
 
