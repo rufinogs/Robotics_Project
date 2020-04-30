@@ -155,7 +155,7 @@ This was my first proof of my code running only the solucion of my code:
 
 <div align="center">
 <pre>
-  <iframe width="560" height="315" src="https://youtu.be/erEbsWirIc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/erEbsWirIc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
 
@@ -163,7 +163,7 @@ After many failed attemps I obtain one solution that works but touch the walls o
 
 <div align="center">
 <pre>
-  <iframe width="560" height="315" src="https://youtu.be/fQMPrYmGCtI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fQMPrYmGCtI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
 
@@ -173,7 +173,7 @@ This is an example of my final solution running the final code:
 
 <div align="center">
 <pre>
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=PZU6-7f6dZs&feature=youtu.be" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PZU6-7f6dZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
 
