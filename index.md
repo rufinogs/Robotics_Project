@@ -6,7 +6,7 @@ I will post my homeworks of Robotic.
 
 These are my work practices: 
 
-### 1. Follow Line 
+<h1> <b>1. Follow Line </b></h1>
 The goal is to complete a lap following the line painted on the racing circuit.
 We will use the plataform created by <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with the lenaguage of programming called Phyton.
 
@@ -14,7 +14,7 @@ We will use the plataform created by <a href="https://jderobot.github.io/Robotic
 
 <img src="Captura de pantalla 2020-02-26 a las 23.28.01.png" alt="hi" class="inline"/>
 
-<h1>The first implement: <b>The case-based program</b></h1>
+<h2>The first implement: <b>The case-based program</b></h2>
 It is a conditional control structure that appears in most modern programming languages and allows a selection to be made   between several sets of program statements; the choice is dependent on the value of some expression. The case statement is a  more general structure than the <b> if then else statement,</b> which allows a choice between only two sets of statements.
 
 <h2> The second implement: The PID controller</h2>
@@ -57,7 +57,7 @@ In this part of the program i calcuate the error in another form. I think this w
 </pre>
 </div>
 
-### 2. Drone_cat_mouse 
+<h1><b>2. Drone_cat_mouse</b></h1> 
 ### INTRODUCTION TO THE PRACTICE DRONE_CAT_MOUSE:
 
 The goal of this practice is that the black drone (cat) needs to follow the red one (mouse) in an open field map delimited by ficticial lines.
@@ -75,12 +75,14 @@ First i used a case-based controller but this cas -based program was very innefi
 
 
 
-### 3. Obstacle Avoidance Practice
+<h1><b>3. Obstacle Avoidance Practice</b></h1>
 ### INTRODUCTION TO THE Obstacle Avoidance Practice:
 
 The objective of this practice is to implement the logic of the VFF navigation algorithm to control a F1 Robot as the one shown in the next image. In this practive we have to improve the code due to the fact we need to complete the entire circuit avoiding the obstacles that the car will find with the sensors.
 
-<img src="Captura de pantalla 2020-03-19 a las 16.26.05.png" alt="hi" class="inline"/>
+Although our code will be reactive-method-based like the other codes from the first practices, we will require a map to show us the location of the targets we are to reach. This target are marked with a yellow Cross.
+
+<img src="obstacle_avoidance.png" alt="hi" class="inline"/>
 
 ### SENSORS
 In this practice we use 2 important sensors:
@@ -114,6 +116,7 @@ Then, we need to obtain the sensor data wo has an array of 180 position. Each po
 
 Finally, we obtain the relative coordinates form the robot and we have to implement that process in the VFF algorithm.
 
+<img src="Captura de pantalla 2020-03-19 a las 16.26.05.png" alt="hi" class="inline"/>
 
 ### WHAT CONTAINS THE VFF ALGORITHM
 The VFF algorith contais 3 types of forces. This forces are:
@@ -124,7 +127,31 @@ The VFF algorith contais 3 types of forces. This forces are:
 
 <b>Resultant Force</b>
 
-<img src="Captura de pantalla 2020-03-19 a las 15.49.34.png" alt="hi" class="inline"/>
+<img src="vectores.png" alt="hi" class="inline"/>
+
+This was an execute of my code with the VFF Algorithm in the Online plataform of JdRObot: 
+
+<div align="center">
+<pre>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nlX39X07YWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</pre>
+</div>
+
+<h2><b> PROBLEMS </b> </h2>
+
+I had a problem with the practice because the online plataform fall down and the only way to solve the prcatice and to reach the goal was using the offline plataform. For me this was a problem due to the fact that I have a Macbook with MacOS and this S.O have incompatibilities with linux and running the code in a VM with linux decreased a lot the performance and the possibility to run the code in my comupter with a good flexibility using gazebo and the code at the same time. Due to the fact that the perfomance decreased my teacher of Robotic found me a possibilitie to run gazebo without the graphic interfaz. Only runing the solucion without using the simulator gazebo, I can't see the simulator of the car running the circuit but I could see the solution of my code and the vectors from the car.
+ 
+At first this was so difficult I had the challengue that i have to understand very well the way the vectors works and the VFF algorithm. I create first a code that doesn´t work i have and idea of what i have to do beacuse in the online plataforme i did the practice but in the offline plataform was different but the essence was there. 
+
+This was my first proof of my code running only the solucion of my code:
+
+<div align="center">
+<pre>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nlX39X07YWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</pre>
+</div>
+
+
 
 This is a video of my Robot with the VFF Algorithm: 
 
