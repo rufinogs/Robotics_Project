@@ -10,7 +10,7 @@ These are my work practices:
 The goal is to complete a lap following the line painted on the racing circuit.
 We will use the plataform created by <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with the lenaguage of programming called Phyton.
 
-### INTRODUCTION TO THE PRACTICE FOLLOW LINE: 
+<h2><b>INTRODUCTION TO THE PRACTICE FOLLOW LINE: </b> </h2>
 
 <img src="Captura de pantalla 2020-02-26 a las 23.28.01.png" alt="hi" class="inline"/>
 
@@ -58,7 +58,7 @@ In this part of the program i calcuate the error in another form. I think this w
 </div>
 
 <h1><b>2. Drone_cat_mouse</b></h1> 
-### INTRODUCTION TO THE PRACTICE DRONE CAT MOUSE:
+<h2><b>INTRODUCTION TO THE PRACTICE DRONE CAT MOUSE:</b> </h2>
 
 The goal of this practice is that the black drone (cat) needs to follow the red one (mouse) in an open field map delimited by ficticial lines.
 
@@ -76,8 +76,7 @@ First i used a case-based controller but this cas -based program was very innefi
 
 
 <h1><b>3. Obstacle Avoidance Practice</b></h1>
-### INTRODUCTION TO THE Obstacle Avoidance Practice:
-
+<h2><b> INTRODUCTION TO THE: Obstacle Avoidance Practice </b> </h2>
 The objective of this practice is to implement the logic of the VFF navigation algorithm to control a F1 Robot as the one shown in the next image. In this practive we have to improve the code due to the fact we need to complete the entire circuit avoiding the obstacles that the car will find with the sensors.
 
 Although our code will be reactive-method-based like the other codes from the first practices, we will require a map to show us the location of the targets we are to reach. This target are marked with a yellow Cross.
