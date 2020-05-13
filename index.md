@@ -266,7 +266,7 @@ When we run the practuce without the head of gzabeo we only see the refeere. thi
 textarea.html-text-box {background-color:#000033;background-image:url(https://rufinogs.github.io);background-repeat:no-repeat;background-attachment:fixed;border-width:1;border-style:solid;border-color:#cccccc;font-family:Verdana;font-size:12pt;color:#00FF33;}
 input.html-text-box {background-color:#000033;font-family:Verdana;font-size:12pt;color:#00FF33;}
 </style>
-<form method="post" action="https://rufinogs.github.io"><textarea name="comments" cols="130" rows="6" class="html-text-box">Comments here...</textarea><br><input type="submit" value="Submit" class="html-text-box"><input type="reset" value="Reset" class="html-text-box"></form>
+<form method="post" action="https://rufinogs.github.io"><textarea name="comments" cols="120" rows="8" class="html-text-box">Comments here...</textarea><br><input type="submit" value="Submit" class="html-text-box"><input type="reset" value="Reset" class="html-text-box"></form>
 <br> <br/>
 
 ### Support or Contact
