@@ -155,13 +155,13 @@ I calculated the Resultant force with the sum of the Attrative force and the Rep
 <br> <br/>
 
 This was an execute of my code with the VFF Algorithm in the Online plataform of JdRObot: 
-
+<br> <br/>
 <div align="center">
 <pre>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/nlX39X07YWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
-
+<br> <br/>
 <h2><b> My Issue </b> </h2>
 
 I had a problem with the practice because the online plataform fall down and the only way to solve the prcatice and to reach the goal was using the offline plataform. For me this was a problem due to the fact that I have a Macbook with MacOS and this S.O have incompatibilities with linux and running the code in a VM with linux decreased a lot the performance and the possibility to run the code in my comupter with a good flexibility using gazebo and the code at the same time. Due to the fact that the perfomance decreased my teacher of Robotic found me a possibilitie to run gazebo without the graphic interfaz. Only runing the solucion without using the simulator gazebo, I can't see the simulator of the car running the circuit but I could see the solution of my code and the vectors from the car.
@@ -169,25 +169,25 @@ I had a problem with the practice because the online plataform fall down and the
 At first this was so difficult I had the challengue that i have to understand very well the way the vectors works and the VFF algorithm. I create first a code that doesn´t work i have and idea of what i have to do beacuse in the online plataforme i did the practice but in the offline plataform was different but the essence was there. 
 
 This was my first proof of my code running only the solucion of my code:
-
+<br> <br/>
 <div align="center">
 <pre>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/erEbsWirIc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
-
+<br> <br/>
 After many failed attemps I obtain one solution that works but touch the walls of the cirucit and that decrease the lineal velocity. This is an example: 
-
+<br> <br/>
 <div align="center">
 <pre>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/fQMPrYmGCtI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
-
+<br> <br/>
 Finally i reach my goal. I create a code that the robot never touch the walls of the circuit and goe very well decreasing the velocity when he see a target and increasing the angular speed to avoid it and increasing the linear speed when he see only the road with any target.
 
 This is an example of my final solution running the final code:
-
+<br> <br/>
 <div align="center">
 <pre>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/PZU6-7f6dZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
