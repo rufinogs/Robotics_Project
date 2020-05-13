@@ -199,8 +199,6 @@ We can analyze in the movements in to two ways:
 
 <img src= "4-Figure4-1.png" alt="hi" class="inline"/>
 
-<img src= "1-s2.0-S092188901300167X-gr1.jpg" alt="hi" class="inline"/>
-
 ### Generate the Movement
 
 To generate the movement we have to create a way to found an angle generation.
