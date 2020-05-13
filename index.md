@@ -209,7 +209,7 @@ We can analyze in the movements in to two ways:
 
 1.- Spiral Motion.
 
-<img src= "Robotic-convoy-moving-in-a-spiral-motion-The-following-robots-move-according-to-the.png" alt="hi" class="inline"/>
+<div align="center"><img src= "Robotic-convoy-moving-in-a-spiral-motion-The-following-robots-move-according-to-the.png" alt="hi" class="inline"/></div>
 
 2.- Boustrophedon Motion.
 
