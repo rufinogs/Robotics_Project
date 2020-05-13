@@ -211,17 +211,17 @@ Coverage Path Planning is an important area of research in Path Planning for rob
 
 We can analyze in the movements in to two ways:
 
-1.- Spiral Motion.
+<b>1.- Spiral Motion.</b>
 <br> <br/>
 <div align="center"><img src= "Robotic-convoy-moving-in-a-spiral-motion-The-following-robots-move-according-to-the.png" alt="hi" class="inline"/></div>
 <br> <br/>
-2.- Boustrophedon Motion.
+<b>2.- Boustrophedon Motion.</b>
 <br> <br/>
 <div align="center"><img src= "4-Figure4-1.png" alt="hi" class="inline"/></div>
 
 <br> <br/>
 ### Generate the Movement
-
+<br> <br/>
 To generate the movement we have to create a way to found an angle generation.
 
 Top create this angle we can use a <b>random durantion or a random angle</b> changing all the time the angle of the robot with a velocity to clean and to move i all directions.
@@ -230,7 +230,7 @@ I choose the random angle way. i generate all time random angle using the distan
 
 <br> <br/>
 ### Components of this Practice
-
+<br> <br/>
 We use this components to generate de movement of the vaccum:
 
 1.- Sensor with 180 values.
@@ -245,22 +245,24 @@ For example one case is that if we are very near a wall we will return in anothe
 
 2.- The motors of the robot to generate the speed.
 
-
+<br> <br/>
 ### The practice running
-
+<br> <br/>
 When we run the practuce without the head of gzabeo we only see the refeere. this isnt a problem because we have <b>"the eyes of the robot"</b> we dont need <b>"the eyes of god"</b>. First of all we start aprox at the middle of the house and when we launch our code the vacuum starts cleaning. 
-
+<br> <br/>
 ### EXAMPLE OF MY SOLUTION
+<br> <br/>
 <div align="center">
 <pre>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/noeqeZSxC74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
+<br> <br/>
 
 ### Comments
-
+<br> <br/>
 
 ### Support or Contact
-
+<br> <br/>
 r.garciasa.2017@alumnos.urjc.es
 Department of R0b0tics. URJC.
