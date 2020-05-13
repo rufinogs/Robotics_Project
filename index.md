@@ -234,7 +234,11 @@ For example one case is that if we are very near a wall we will return in anothe
 When we run the practuce without the head of gzabeo we only see the refeere. this isnt a problem because we have <b>"the eyes of the robot"</b> we dont need <b>"the eyes of god"</b>. First of all we start aprox at the middle of the house and when we launch our code the vacuum starts cleaning. 
 
 ### EXAMPLE OF MY SOLUTION
-
+<div align="center">
+<pre>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/noeqeZSxC74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</pre>
+</div>
 
 ### Comments
 
