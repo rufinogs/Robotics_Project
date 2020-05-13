@@ -5,7 +5,9 @@ I will post my homeworks of Robotic.
 ### Work Practices
 
 These are my work practices: 
-
+<br> <br/>
+<br> <br/>
+<br> <br/>
 <h1> <b>1. Follow Line </b></h1>
 The goal is to complete a lap following the line painted on the racing circuit.
 We will use the plataform created by <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with the lenaguage of programming called Phyton.
@@ -64,6 +66,9 @@ In this part of the program i calcuate the error in another form. I think this w
 </pre>
 </div>
 
+<br> <br/>
+<br> <br/>
+<br> <br/>
 <h1><b>2. Drone_cat_mouse</b></h1> 
 <h2><b>INTRODUCTION TO THE PRACTICE DRONE CAT MOUSE:</b> </h2>
 
@@ -80,8 +85,9 @@ This part is very important due to with this image processing we can detect the 
 
 First i used a case-based controller but this cas -based program was very inneficient and the drone sometimes lost the red drone. Then i implement the another way and the black drone (the cat) mproves a lot the way he follos the red dorne (the mouse). 
 
-
-
+<br> <br/>
+<br> <br/>
+<br> <br/>
 <h1><b>3. Obstacle Avoidance Practice</b></h1>
 <h2><b> INTRODUCTION TO THE: Obstacle Avoidance Practice </b> </h2>
 The objective of this practice is to implement the logic of the VFF navigation algorithm to control a F1 Robot as the one shown in the next image. In this practive we have to improve the code due to the fact we need to complete the entire circuit avoiding the obstacles that the car will find with the sensors.
@@ -184,6 +190,9 @@ This is an example of my final solution running the final code:
 </pre>
 </div>
 
+<br> <br/>
+<br> <br/>
+<br> <br/>
 <h1><b>4. Vacuum cleaner</b></h1>
 
 <img src= "vacuum_cleaner.png" alt="hi" class="inline"/>
