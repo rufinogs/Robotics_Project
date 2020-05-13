@@ -178,6 +178,9 @@ This is an example of my final solution running the final code:
 </div>
 
 <h1><b>4. Vacuum cleaner</b></h1>
+
+<img src= "vacuum_cleaner.png" alt="hi" class="inline"/>
+
 <h2><b> INTRODUCTION TO THE: Vacuum cleaner </b> </h2>
 
 In this practice we need to implement the logic of a navigation algorithm for an autonomous vacuum. The main objective will be to cover the largest area in 300 seconds of a house using the programmed algorithm. This algorithm is called <b>Coverage Algorithm.</b>
@@ -196,8 +199,35 @@ We can analyze in the movements in to two ways:
 
 <img src= "Unknown-4" alt="hi" class="inline"/>
 
- 
- 
+### Generate the Movement
+
+To generate the movement we have to create a way to found an angle generation.
+
+Top create this angle we can use a <b>random durantion or a random angle</b> changing all the time the angle of the robot with a velocity to clean and to move i all directions.
+
+I choose the random angle way. i generate all time random angle using the distancia between the walls and the robot and i gerenate different speeds in different directions.
+
+### Components of this Practice
+
+We use this components to generate de movement of the vaccum:
+
+1.- Sensor with 180 values.
+
+I obtain all the data form the laser sensor <b>(laser.getLaserData()).</b> With this data I calculate the angle to generate a random angle. The valiue of thsi angle will depends of the distance of the robot and the walls of the house. The are related.
+
+For example one case is that if we are very near a wall we will return in another direction to contiue cleaning and no going only in the same direction to the wall.
+
+<img src= "Captura de pantalla 2020-05-14 a las 0.55.45.png" alt="hi" class="inline"/>
+
+2.- The motors of the robot to generate the speed.
+
+
+### The practice running
+
+When we run the practuce without the head of gzabeo we only see the refeere. this isnt a problem because we have <b>"the eyes of the robot"</b> we dont need <b>"the eyes of god"</b>. First of all we start aprox at the middle of the house and when we launch our code the vacuum starts cleaning. 
+
+### EXAMPLE OF MY SOLUTION
+
 
 ### Comments
 
