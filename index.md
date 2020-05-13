@@ -141,7 +141,7 @@ To calculate that Repulsive force i used the infromation obtained from the laser
 
 I calculated the Resultant force with the sum of the Attrative force and the Repulsive force.
 
-<img src= "Captura de pantalla 2020-04-30 a las 14.26.23.png" alt="hi" class="inline"/>
+<div align="center"><img src= "Captura de pantalla 2020-04-30 a las 14.26.23.png" alt="hi" class="inline"/></div>
 
 
 This was an execute of my code with the VFF Algorithm in the Online plataform of JdRObot: 
