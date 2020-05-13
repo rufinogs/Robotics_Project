@@ -195,11 +195,11 @@ This is an example of my final solution running the final code:
 <h1><b>4. Vacuum cleaner</b></h1>
 
 <img src= "vacuum_cleaner.png" alt="hi" class="inline"/>
-
+<br> <br/>
 <h2><b> INTRODUCTION TO THE: Vacuum cleaner </b> </h2>
 
 In this practice we need to implement the logic of a navigation algorithm for an autonomous vacuum. The main objective will be to cover the largest area in 300 seconds of a house using the programmed algorithm. This algorithm is called <b>Coverage Algorithm.</b>
-
+<br> <br/>
 <h2><b> COVERAGE ALGORITHM </b> </h2>
 
 Coverage Path Planning is an important area of research in Path Planning for robotics, which involves finding a path that passes through every reachable position in its environment.
@@ -207,13 +207,14 @@ Coverage Path Planning is an important area of research in Path Planning for rob
 We can analyze in the movements in to two ways:
 
 1.- Spiral Motion.
-
+<br> <br/>
 <div align="center"><img src= "Robotic-convoy-moving-in-a-spiral-motion-The-following-robots-move-according-to-the.png" alt="hi" class="inline"/></div>
-
+<br> <br/>
 2.- Boustrophedon Motion.
-
+<br> <br/>
 <div align="center"><img src= "4-Figure4-1.png" alt="hi" class="inline"/></div>
 
+<br> <br/>
 ### Generate the Movement
 
 To generate the movement we have to create a way to found an angle generation.
@@ -222,6 +223,7 @@ Top create this angle we can use a <b>random durantion or a random angle</b> cha
 
 I choose the random angle way. i generate all time random angle using the distancia between the walls and the robot and i gerenate different speeds in different directions.
 
+<br> <br/>
 ### Components of this Practice
 
 We use this components to generate de movement of the vaccum:
@@ -231,8 +233,10 @@ We use this components to generate de movement of the vaccum:
 I obtain all the data form the laser sensor <b>(laser.getLaserData()).</b> With this data I calculate the angle to generate a random angle. The valiue of thsi angle will depends of the distance of the robot and the walls of the house. The are related.
 
 For example one case is that if we are very near a wall we will return in another direction to contiue cleaning and no going only in the same direction to the wall.
+<br> <br/>
 
 <img src= "Captura de pantalla 2020-05-14 a las 0.55.45.png" alt="hi" class="inline"/>
+<br> <br/>
 
 2.- The motors of the robot to generate the speed.
 
