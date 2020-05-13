@@ -262,12 +262,11 @@ When we run the practuce without the head of gzabeo we only see the refeere. thi
 
 ### Comments
 <br> <br/>
-<!-- HTML Codes by Quackit.com -->
 <style type="text/css">
-textarea.html-text-box {background-color:#FFFFFF;background-image:url(http://);background-repeat:no-repeat;background-attachment:fixed;border-width:1;border-style:solid;border-color:#cccccc;font-family:Verdana;font-size:12pt;color:#33CC33;}
-input.html-text-box {background-color:#ffffff;font-family:Verdana;font-size:12pt;color:#00FF33;}
+textarea.html-text-box {background-color:#000033;background-image:url(https://rufinogs.github.io);background-repeat:no-repeat;background-attachment:fixed;border-width:1;border-style:solid;border-color:#cccccc;font-family:Verdana;font-size:12pt;color:#00FF33;}
+input.html-text-box {background-color:#000033;font-family:Verdana;font-size:12pt;color:#00FF33;}
 </style>
-<form method="post" action="http://https://rufinogs.github.io"><textarea name="comments" cols="30" rows="5" class="html-text-box">Comments here...</textarea><br><input type="submit" value="Submit" class="html-text-box"><input type="reset" value="Reset" class="html-text-box"></form>
+<form method="post" action="https://rufinogs.github.io"><textarea name="comments" cols="88" rows="6" class="html-text-box">Comments here...</textarea><br><input type="submit" value="Submit" class="html-text-box"><input type="reset" value="Reset" class="html-text-box"></form>
 <br> <br/>
 
 ### Support or Contact
