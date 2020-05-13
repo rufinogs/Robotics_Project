@@ -262,35 +262,12 @@ When we run the practuce without the head of gzabeo we only see the refeere. thi
 
 ### Comments
 <br> <br/>
-<div class="comment">
-<textarea id="title" type="text "rows="2" cols="4" onkeyup="Allow()" placeholder="write a comment......"></textarea>
-<input type="submit" value="Post" onclick="insert()" style="width:20px;" /></form>
-</div>
-<div id="display"></div>
-<script type="text/javascript">
-var titles = [];
-var titleInput = document.getElementById("title");
-var messageBox = document.getElementById("display");
-function Allow()
-{
-if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
-{
-user.title.value="";
-alert("Please Enter only alphabets");
-}
-window.location.reload()
-}
-function insert () {
-titles.push(titleInput.value);
-clearAndShow();
-}
-function clearAndShow ()
-{
-titleInput.value = "";
-messageBox.innerHTML = "";
-messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
-}
-</script>
+<!-- HTML Codes by Quackit.com -->
+<style type="text/css">
+textarea.html-text-box {background-color:#FFFFFF;background-image:url(http://);background-repeat:no-repeat;background-attachment:fixed;border-width:1;border-style:solid;border-color:#cccccc;font-family:Verdana;font-size:12pt;color:#33CC33;}
+input.html-text-box {background-color:#ffffff;font-family:Verdana;font-size:12pt;color:#00FF33;}
+</style>
+<form method="post" action="http://https://rufinogs.github.io"><textarea name="comments" cols="30" rows="5" class="html-text-box">Comments here...</textarea><br><input type="submit" value="Submit" class="html-text-box"><input type="reset" value="Reset" class="html-text-box"></form>
 <br> <br/>
 
 ### Support or Contact
