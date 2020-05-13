@@ -10,11 +10,11 @@ These are my work practices:
 <h1> <b>1. Follow Line </b></h1>
 The goal is to complete a lap following the line painted on the racing circuit.
 We will use the plataform created by <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with the lenaguage of programming called Phyton.
-
+<br> <br/>
 <h2><b>INTRODUCTION TO THE PRACTICE FOLLOW LINE: </b> </h2>
-
+<br> <br/>
 <img src="Captura de pantalla 2020-02-26 a las 23.28.01.png" alt="hi" class="inline"/>
-
+<br> <br/>
 <h2>The first implement: <b>The case-based program</b></h2>
 It is a conditional control structure that appears in most modern programming languages and allows a selection to be made   between several sets of program statements; the choice is dependent on the value of some expression. The case statement is a  more general structure than the <b> if then else statement,</b> which allows a choice between only two sets of statements.
 
@@ -25,7 +25,7 @@ The name of PID stands for Proportional-Integral-Derivative. These three control
   <iframe width="560" height="315" src="https://www.youtube.com/embed/v27xYKdZUzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
-
+<br> <br/>
 ### The Image Processing
 In this practice i have used an important robotic sensor. This sensor is <b>the camera sensor</b> who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
 In this practice i do an image processing. Firts i get the <b> RSV image</b> and <b> I convert into a HSV image</b>. Then i create a mask for this imagen and filetered to get a <b> Binary Image</b> to get more information from the image and use it to create the code to redirect the car following the red line in the race circuit.
@@ -48,6 +48,7 @@ BINARY IMAGE
 <br> <br/>
 </figure>
 </div>
+<br> <br/>
 ### The case-based program:
 
 This type is very easy i only count the error between pixels from right to left and i write in the angular velocity this error.This is a video of mpowery case-based program with the Formula One in the practice:
@@ -56,7 +57,7 @@ This type is very easy i only count the error between pixels from right to left 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KFF2EVhh_rk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
-
+<br> <br/>
 ### The PID controller:
 In this part of the program i calcuate the error in another form. I think this way to calculate the error its more efficient. i calculate the center of the image of the simulator and then i calculate i all moments the exact middle of the image that the camera provides me. With this "desviation" ussing a loop in the code saving the last 10 errors. I can compare to get the derivate part from the PID and I can sum all the errors to get the Integral part to get all the components fo the PID.This is a vdieo of my PID program powerwith the Formula One in the practice: 
 <div align="center">
@@ -69,17 +70,20 @@ In this part of the program i calcuate the error in another form. I think this w
 <br> <br/>
 <br> <br/>
 <h1><b>2. Drone_cat_mouse</b></h1> 
+<br> <br/>
 <h2><b>INTRODUCTION TO THE PRACTICE DRONE CAT MOUSE:</b> </h2>
 
 The goal of this practice is that the black drone (cat) needs to follow the red one (mouse) in an open field map delimited by ficticial lines.
 
 In this practice I use the languague of programming python an the library cv2. I use in especial this library for image processing (from de drone) and to use different logic methods for robots implmented in that library.
+<br> <br/>
 <img src="drone1.png" alt="hi" class="inline"/>
 
+<br> <br/>
 ### The Image Processing
 
 This part is very important due to with this image processing we can detect the other drone and we follow it. i use the sensor of the camera and with the help of the  cv2 library i filtered the imagen and i get the dorne filetreed.
-
+<br> <br/>
 ### The drone controller
 
 First i used a case-based controller but this cas -based program was very inneficient and the drone sometimes lost the red drone. Then i implement the another way and the black drone (the cat) mproves a lot the way he follos the red dorne (the mouse). 
@@ -88,22 +92,22 @@ First i used a case-based controller but this cas -based program was very innefi
 <br> <br/>
 <br> <br/>
 <h1><b>3. Obstacle Avoidance Practice</b></h1>
+<br> <br/>
 <h2><b> INTRODUCTION TO THE: Obstacle Avoidance Practice </b> </h2>
 The objective of this practice is to implement the logic of the VFF navigation algorithm to control a F1 Robot as the one shown in the next image. In this practive we have to improve the code due to the fact we need to complete the entire circuit avoiding the obstacles that the car will find with the sensors.
 
 Although our code will be reactive-method-based like the other codes from the first practices, we will require a map to show us the location of the targets we are to reach. This target are marked with a yellow Cross.
 
 <div align="center"><img src="obstacle_avoidance.png" alt="hi" class="inline"/></div>
-
+<br> <br/>
 ### SENSORS
 In this practice we use 2 important sensors:
 
    <b>1. The laser sensor</b>
    
    <b>2. The Location of the robot</b>
-
+<br> <br/>
 ### VFF ALGORITHM
-
 Navigation using VFF (Virtual Force Field), consists of:
 
 Each object in the environment generates a repulsive force towards the robot.
@@ -112,7 +116,7 @@ Destiny generates an attractive force in the robot.
 
 This makes it possible for the robot to go towards the target, distancing itself of the obstacles, so that their address is the vector sum of all the forces.
 
-
+<br> <br/>
 ### HOW WE IMPLEMENT VFF ALGORITHM
 
 To implement VFF algorithm i used an hybrid navigation. This hybrid navigation is formed by global navigation and local navigation.
@@ -126,10 +130,11 @@ Next, we need to calculate the relative coordinates from my robot from the previ
 Then, we need to obtain the sensor data wo has an array of 180 position. Each position has a value, this value is the ditance from your robot to the obstacle.
 
 Finally, we obtain the relative coordinates form the robot and we have to implement that process in the VFF algorithm.
-
+<br> <br/>
 <img src="Captura de pantalla 2020-03-19 a las 16.26.05.png" alt="hi" class="inline"/>
-
+<br> <br/>
 ### WHAT CONTAINS THE VFF ALGORITHM
+<br> <br/>
 The VFF algorith contais 3 types of forces. This forces are:
 
 <b>Attractive Force (Green vector)</b>
@@ -145,9 +150,9 @@ To calculate that Repulsive force i used the infromation obtained from the laser
 <b>Resultant Force (Black vector)</b>
 
 I calculated the Resultant force with the sum of the Attrative force and the Repulsive force.
-
+<br> <br/>
 <div align="center"><img src= "Captura de pantalla 2020-04-30 a las 14.26.23.png" alt="hi" class="inline"/></div>
-
+<br> <br/>
 
 This was an execute of my code with the VFF Algorithm in the Online plataform of JdRObot: 
 
@@ -193,7 +198,7 @@ This is an example of my final solution running the final code:
 <br> <br/>
 <br> <br/>
 <h1><b>4. Vacuum cleaner</b></h1>
-
+<br> <br/>
 <img src= "vacuum_cleaner.png" alt="hi" class="inline"/>
 <br> <br/>
 <h2><b> INTRODUCTION TO THE: Vacuum cleaner </b> </h2>
