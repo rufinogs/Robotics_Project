@@ -177,6 +177,28 @@ This is an example of my final solution running the final code:
 </pre>
 </div>
 
+<h1><b>4. Vacuum cleaner</b></h1>
+<h2><b> INTRODUCTION TO THE: Vacuum cleaner </b> </h2>
+
+In this practice we need to implement the logic of a navigation algorithm for an autonomous vacuum. The main objective will be to cover the largest area in 300 seconds of a house using the programmed algorithm. This algorithm is called <b>Coverage Algorithm.</b>
+
+<h2><b> COVERAGE ALGORITHM </b> </h2>
+
+Coverage Path Planning is an important area of research in Path Planning for robotics, which involves finding a path that passes through every reachable position in its environment.
+
+We can analyze in the movements in to two ways:
+
+1.- Spiral Motion.
+
+<img src= "Robotic-convoy-moving-in-a-spiral-motion-The-following-robots-move-according-to-the.png" alt="hi" class="inline"/>
+
+2.- Boustrophedon Motion.
+
+<img src= "Unknown-4" alt="hi" class="inline"/>
+
+ 
+ 
+
 ### Comments
 
 
