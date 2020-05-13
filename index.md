@@ -32,14 +32,17 @@ In this practice i do an image processing. Firts i get the <b> RSV image</b> and
 <div align="center">
 <figure class="align-center">
 <img src="rgb.png" alt="hi" class="incline"/>
+  <br> <br/>
 RGB IMAGE 
 <br> <br/>
   
 <img src="hsv.png" alt="hi" class="incline"/> 
+<br> <br/>
 HSV IMAGE
 <br> <br/>
 
 <img src="binary.png" alt="hi" class="incline"/> 
+<br> <br/>
 BINARY IMAGE
 <br> <br/>
 </figure>
