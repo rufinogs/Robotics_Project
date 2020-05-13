@@ -30,7 +30,7 @@ The name of PID stands for Proportional-Integral-Derivative. These three control
 ### The Image Processing
 In this practice i have used an important robotic sensor. This sensor is <b>the camera sensor</b> who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
 In this practice i do an image processing. Firts i get the <b> RSV image</b> and <b> I convert into a HSV image</b>. Then i create a mask for this imagen and filetered to get a <b> Binary Image</b> to get more information from the image and use it to create the code to redirect the car following the red line in the race circuit.
-
+<br> <br/>
 <div align="center">
 <figure class="align-center">
 <img src="rgb.png" alt="hi" class="incline"/>
