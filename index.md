@@ -29,8 +29,9 @@ The name of PID stands for Proportional-Integral-Derivative. These three control
 In this practice i have used an important robotic sensor. This sensor is <b>the camera sensor</b> who gives a lot of information. The camera is a cheap sensor and i think it is the best price quality sensor in the market.
 In this practice i do an image processing. Firts i get the <b> RSV image</b> and <b> I convert into a HSV image</b>. Then i create a mask for this imagen and filetered to get a <b> Binary Image</b> to get more information from the image and use it to create the code to redirect the car following the red line in the race circuit.
 
+<div align="center">
 <figure class="align-center">
-<img src="rgb.png" alt="hi" class="incline"/> 
+<img src="rgb.png" alt="hi" class="incline"/>
 <figcaption> RGB IMAGE </figcaption>
 
 <img src="hsv.png" alt="hi" class="incline"/> 
@@ -39,7 +40,7 @@ In this practice i do an image processing. Firts i get the <b> RSV image</b> and
 <img src="binary.png" alt="hi" class="incline"/> 
 <figcaption> BINARY IMAGE </figcaption>
 </figure>
-
+</div>
 ### The case-based program:
 
 This type is very easy i only count the error between pixels from right to left and i write in the angular velocity this error.This is a video of mpowery case-based program with the Formula One in the practice:
@@ -81,7 +82,7 @@ The objective of this practice is to implement the logic of the VFF navigation a
 
 Although our code will be reactive-method-based like the other codes from the first practices, we will require a map to show us the location of the targets we are to reach. This target are marked with a yellow Cross.
 
-<img src="obstacle_avoidance.png" alt="hi" class="inline"/>
+<div align="center"><img src="obstacle_avoidance.png" alt="hi" class="inline"/></div>
 
 ### SENSORS
 In this practice we use 2 important sensors:
