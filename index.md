@@ -135,7 +135,7 @@ Finally, we obtain the relative coordinates form the robot and we have to implem
 <img src="Captura de pantalla 2020-03-19 a las 16.26.05.png" alt="hi" class="inline"/>
 <br> <br/>
 ### WHAT CONTAINS THE VFF ALGORITHM
-<br> <br/>
+
 The VFF algorith contais 3 types of forces. This forces are:
 
 <b>Attractive Force (Green vector)</b>
