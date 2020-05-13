@@ -197,7 +197,9 @@ We can analyze in the movements in to two ways:
 
 2.- Boustrophedon Motion.
 
-<img src= "Unknown-4" alt="hi" class="inline"/>
+<img src= "4-Figure4-1.png" alt="hi" class="inline"/>
+
+<img src= "1-s2.0-S092188901300167X-gr1.jpg" alt="hi" class="inline"/>
 
 ### Generate the Movement
 
