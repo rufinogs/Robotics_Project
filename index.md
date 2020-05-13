@@ -6,8 +6,7 @@ I will post my homeworks of Robotic.
 
 These are my work practices: 
 <br> <br/>
-<br> <br/>
-<br> <br/>
+
 <h1> <b>1. Follow Line </b></h1>
 The goal is to complete a lap following the line painted on the racing circuit.
 We will use the plataform created by <a href="https://jderobot.github.io/RoboticsAcademy/ " >JDeRobot</a> with the lenaguage of programming called Phyton.
