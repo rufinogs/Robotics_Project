@@ -194,6 +194,15 @@ This is an example of my final solution running the final code:
   <iframe width="560" height="315" src="https://www.youtube.com/embed/PZU6-7f6dZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
+<br> <br/>
+
+I do another code using The VFF Algorithm in a better way. using it in a more efficient way. In this video you seee it.
+<br> <br/>
+<div align="center">
+<pre>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J0YPW1GDr9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</pre>
+</div>
 
 <br> <br/>
 <br> <br/>
