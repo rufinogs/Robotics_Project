@@ -196,7 +196,7 @@ This is an example of my final solution running the final code:
 </div>
 <br> <br/>
 
-I do another code using The VFF Algorithm in a better way. using it in a more efficient way. In this video you seee it.
+I do another code using The VFF Algorithm in a better way. using it in a more efficient way. In this video you can see it.
 <br> <br/>
 <div align="center">
 <pre>
